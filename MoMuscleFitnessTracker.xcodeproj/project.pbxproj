@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770BAAD429B2CEDB0052811F /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BAAD329B2CEDB0052811F /* WaveView.swift */; };
+		770FCEA729A86C5B004BE99E /* icons8-tear-off-calendar-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEA629A86C5B004BE99E /* icons8-tear-off-calendar-48.png */; };
+		770FCEAB29A86D2C004BE99E /* icons8-galons-of-water-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEAA29A86D2C004BE99E /* icons8-galons-of-water-96.png */; };
+		770FCEAD29A87FD5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEAC29A87FD5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png */; };
+		770FCEAF29A883A5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEAE29A883A5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D copy.png */; };
+		770FCEB129A886AF004BE99E /* waterintake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEB029A886AF004BE99E /* waterintake.jpg */; };
+		770FCEB329A88C8A004BE99E /* StayHydratedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FCEB229A88C8A004BE99E /* StayHydratedViewController.swift */; };
+		770FCEB529A89163004BE99E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEB429A89163004BE99E /* 2.png */; };
+		775454CF298F630E00B0D13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454CE298F630E00B0D13A /* AppDelegate.swift */; };
+		775454D1298F630E00B0D13A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454D0298F630E00B0D13A /* SceneDelegate.swift */; };
+		775454D3298F630E00B0D13A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454D2298F630E00B0D13A /* ViewController.swift */; };
+		775454D6298F630E00B0D13A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775454D4298F630E00B0D13A /* Main.storyboard */; };
+		775454D9298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 775454D7298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodeld */; };
+		775454DB298F631100B0D13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775454DA298F631100B0D13A /* Assets.xcassets */; };
+		775454DE298F631100B0D13A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775454DC298F631100B0D13A /* LaunchScreen.storyboard */; };
+		775454E9298F631100B0D13A /* MoMuscleFitnessTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454E8298F631100B0D13A /* MoMuscleFitnessTrackerTests.swift */; };
+		775454F3298F631100B0D13A /* MoMuscleFitnessTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454F2298F631100B0D13A /* MoMuscleFitnessTrackerUITests.swift */; };
+		775454F5298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454F4298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift */; };
+		77545502298F63A000B0D13A /* Ampersand Profile Picture (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 77545501298F63A000B0D13A /* Ampersand Profile Picture (1).png */; };
+		77A4FD3F29B3051D00F2075D /* TestViewControlllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4FD3E29B3051D00F2075D /* TestViewControlllerViewController.swift */; };
+		77BEABBC299206270009C87F /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BEABBB299206270009C87F /* Calender.swift */; };
+		77C04BBC29B04B570062A650 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C04BBB29B04B570062A650 /* SettingsViewController.swift */; };
+		77CBEA2929A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 77CBEA2829A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775454E5298F631100B0D13A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775454C3298F630E00B0D13A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775454CA298F630E00B0D13A;
+			remoteInfo = MoMuscleFitnessTracker;
+		};
+		775454EF298F631100B0D13A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775454C3298F630E00B0D13A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775454CA298F630E00B0D13A;
+			remoteInfo = MoMuscleFitnessTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		770BAAD329B2CEDB0052811F /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		770FCEA629A86C5B004BE99E /* icons8-tear-off-calendar-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-tear-off-calendar-48.png"; sourceTree = "<group>"; };
+		770FCEAA29A86D2C004BE99E /* icons8-galons-of-water-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-galons-of-water-96.png"; sourceTree = "<group>"; };
+		770FCEAC29A87FD5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png"; sourceTree = "<group>"; };
+		770FCEAE29A883A5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D copy.png"; sourceTree = "<group>"; };
+		770FCEB029A886AF004BE99E /* waterintake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterintake.jpg; sourceTree = "<group>"; };
+		770FCEB229A88C8A004BE99E /* StayHydratedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayHydratedViewController.swift; sourceTree = "<group>"; };
+		770FCEB429A89163004BE99E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		775454CB298F630E00B0D13A /* MoMuscleFitnessTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoMuscleFitnessTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		775454CE298F630E00B0D13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775454D0298F630E00B0D13A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		775454D2298F630E00B0D13A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		775454D5298F630E00B0D13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		775454D8298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoMuscleFitnessTracker.xcdatamodel; sourceTree = "<group>"; };
+		775454DA298F631100B0D13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775454DD298F631100B0D13A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775454DF298F631100B0D13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775454E4298F631100B0D13A /* MoMuscleFitnessTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoMuscleFitnessTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775454E8298F631100B0D13A /* MoMuscleFitnessTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoMuscleFitnessTrackerTests.swift; sourceTree = "<group>"; };
+		775454EE298F631100B0D13A /* MoMuscleFitnessTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoMuscleFitnessTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		775454F2298F631100B0D13A /* MoMuscleFitnessTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoMuscleFitnessTrackerUITests.swift; sourceTree = "<group>"; };
+		775454F4298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoMuscleFitnessTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77545501298F63A000B0D13A /* Ampersand Profile Picture (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ampersand Profile Picture (1).png"; sourceTree = "<group>"; };
+		77A4FD3E29B3051D00F2075D /* TestViewControlllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewControlllerViewController.swift; sourceTree = "<group>"; };
+		77BEABBB299206270009C87F /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
+		77C04BBB29B04B570062A650 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		77CBEA2829A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2023-02-02 at 11.26.46 AM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775454C8298F630E00B0D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775454E1298F631100B0D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775454EB298F631100B0D13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		770BAAD229B2CEAD0052811F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				770BAAD329B2CEDB0052811F /* WaveView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		775454C2298F630E00B0D13A = {
+			isa = PBXGroup;
+			children = (
+				775454CD298F630E00B0D13A /* MoMuscleFitnessTracker */,
+				775454E7298F631100B0D13A /* MoMuscleFitnessTrackerTests */,
+				775454F1298F631100B0D13A /* MoMuscleFitnessTrackerUITests */,
+				775454CC298F630E00B0D13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775454CC298F630E00B0D13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775454CB298F630E00B0D13A /* MoMuscleFitnessTracker.app */,
+				775454E4298F631100B0D13A /* MoMuscleFitnessTrackerTests.xctest */,
+				775454EE298F631100B0D13A /* MoMuscleFitnessTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775454CD298F630E00B0D13A /* MoMuscleFitnessTracker */ = {
+			isa = PBXGroup;
+			children = (
+				775454CE298F630E00B0D13A /* AppDelegate.swift */,
+				775454D0298F630E00B0D13A /* SceneDelegate.swift */,
+				775454D2298F630E00B0D13A /* ViewController.swift */,
+				770FCEB229A88C8A004BE99E /* StayHydratedViewController.swift */,
+				77C04BBB29B04B570062A650 /* SettingsViewController.swift */,
+				77A4FD3E29B3051D00F2075D /* TestViewControlllerViewController.swift */,
+				77BEABBB299206270009C87F /* Calender.swift */,
+				770BAAD229B2CEAD0052811F /* Extension */,
+				775454D4298F630E00B0D13A /* Main.storyboard */,
+				775454DA298F631100B0D13A /* Assets.xcassets */,
+				770FCEB029A886AF004BE99E /* waterintake.jpg */,
+				770FCEB429A89163004BE99E /* 2.png */,
+				770FCEAC29A87FD5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png */,
+				770FCEAE29A883A5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D copy.png */,
+				770FCEAA29A86D2C004BE99E /* icons8-galons-of-water-96.png */,
+				770FCEA629A86C5B004BE99E /* icons8-tear-off-calendar-48.png */,
+				77545501298F63A000B0D13A /* Ampersand Profile Picture (1).png */,
+				77CBEA2829A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png */,
+				775454DC298F631100B0D13A /* LaunchScreen.storyboard */,
+				775454DF298F631100B0D13A /* Info.plist */,
+				775454D7298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodeld */,
+			);
+			path = MoMuscleFitnessTracker;
+			sourceTree = "<group>";
+		};
+		775454E7298F631100B0D13A /* MoMuscleFitnessTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				775454E8298F631100B0D13A /* MoMuscleFitnessTrackerTests.swift */,
+			);
+			path = MoMuscleFitnessTrackerTests;
+			sourceTree = "<group>";
+		};
+		775454F1298F631100B0D13A /* MoMuscleFitnessTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				775454F2298F631100B0D13A /* MoMuscleFitnessTrackerUITests.swift */,
+				775454F4298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift */,
+			);
+			path = MoMuscleFitnessTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775454CA298F630E00B0D13A /* MoMuscleFitnessTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775454F8298F631100B0D13A /* Build configuration list for PBXNativeTarget "MoMuscleFitnessTracker" */;
+			buildPhases = (
+				775454C7298F630E00B0D13A /* Sources */,
+				775454C8298F630E00B0D13A /* Frameworks */,
+				775454C9298F630E00B0D13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoMuscleFitnessTracker;
+			productName = MoMuscleFitnessTracker;
+			productReference = 775454CB298F630E00B0D13A /* MoMuscleFitnessTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775454E3298F631100B0D13A /* MoMuscleFitnessTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775454FB298F631100B0D13A /* Build configuration list for PBXNativeTarget "MoMuscleFitnessTrackerTests" */;
+			buildPhases = (
+				775454E0298F631100B0D13A /* Sources */,
+				775454E1298F631100B0D13A /* Frameworks */,
+				775454E2298F631100B0D13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775454E6298F631100B0D13A /* PBXTargetDependency */,
+			);
+			name = MoMuscleFitnessTrackerTests;
+			productName = MoMuscleFitnessTrackerTests;
+			productReference = 775454E4298F631100B0D13A /* MoMuscleFitnessTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775454ED298F631100B0D13A /* MoMuscleFitnessTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775454FE298F631100B0D13A /* Build configuration list for PBXNativeTarget "MoMuscleFitnessTrackerUITests" */;
+			buildPhases = (
+				775454EA298F631100B0D13A /* Sources */,
+				775454EB298F631100B0D13A /* Frameworks */,
+				775454EC298F631100B0D13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775454F0298F631100B0D13A /* PBXTargetDependency */,
+			);
+			name = MoMuscleFitnessTrackerUITests;
+			productName = MoMuscleFitnessTrackerUITests;
+			productReference = 775454EE298F631100B0D13A /* MoMuscleFitnessTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775454C3298F630E00B0D13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					775454CA298F630E00B0D13A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					775454E3298F631100B0D13A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 775454CA298F630E00B0D13A;
+					};
+					775454ED298F631100B0D13A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 775454CA298F630E00B0D13A;
+					};
+				};
+			};
+			buildConfigurationList = 775454C6298F630E00B0D13A /* Build configuration list for PBXProject "MoMuscleFitnessTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775454C2298F630E00B0D13A;
+			productRefGroup = 775454CC298F630E00B0D13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775454CA298F630E00B0D13A /* MoMuscleFitnessTracker */,
+				775454E3298F631100B0D13A /* MoMuscleFitnessTrackerTests */,
+				775454ED298F631100B0D13A /* MoMuscleFitnessTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775454C9298F630E00B0D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770FCEB529A89163004BE99E /* 2.png in Resources */,
+				770FCEAB29A86D2C004BE99E /* icons8-galons-of-water-96.png in Resources */,
+				770FCEAF29A883A5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D copy.png in Resources */,
+				770FCEAD29A87FD5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png in Resources */,
+				775454DE298F631100B0D13A /* LaunchScreen.storyboard in Resources */,
+				77CBEA2929A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png in Resources */,
+				770FCEB129A886AF004BE99E /* waterintake.jpg in Resources */,
+				775454DB298F631100B0D13A /* Assets.xcassets in Resources */,
+				77545502298F63A000B0D13A /* Ampersand Profile Picture (1).png in Resources */,
+				775454D6298F630E00B0D13A /* Main.storyboard in Resources */,
+				770FCEA729A86C5B004BE99E /* icons8-tear-off-calendar-48.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775454E2298F631100B0D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775454EC298F631100B0D13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775454C7298F630E00B0D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775454D9298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodeld in Sources */,
+				775454D3298F630E00B0D13A /* ViewController.swift in Sources */,
+				77C04BBC29B04B570062A650 /* SettingsViewController.swift in Sources */,
+				770FCEB329A88C8A004BE99E /* StayHydratedViewController.swift in Sources */,
+				77A4FD3F29B3051D00F2075D /* TestViewControlllerViewController.swift in Sources */,
+				775454CF298F630E00B0D13A /* AppDelegate.swift in Sources */,
+				775454D1298F630E00B0D13A /* SceneDelegate.swift in Sources */,
+				77BEABBC299206270009C87F /* Calender.swift in Sources */,
+				770BAAD429B2CEDB0052811F /* WaveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775454E0298F631100B0D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775454E9298F631100B0D13A /* MoMuscleFitnessTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775454EA298F631100B0D13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775454F3298F631100B0D13A /* MoMuscleFitnessTrackerUITests.swift in Sources */,
+				775454F5298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775454E6298F631100B0D13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775454CA298F630E00B0D13A /* MoMuscleFitnessTracker */;
+			targetProxy = 775454E5298F631100B0D13A /* PBXContainerItemProxy */;
+		};
+		775454F0298F631100B0D13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775454CA298F630E00B0D13A /* MoMuscleFitnessTracker */;
+			targetProxy = 775454EF298F631100B0D13A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775454D4298F630E00B0D13A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775454D5298F630E00B0D13A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		775454DC298F631100B0D13A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775454DD298F631100B0D13A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775454F6298F631100B0D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		775454F7298F631100B0D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		775454F9298F631100B0D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AY5G84ET7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoMuscleFitnessTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.MoMuscleFitnessTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		775454FA298F631100B0D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AY5G84ET7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoMuscleFitnessTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.MoMuscleFitnessTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		775454FC298F631100B0D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AY5G84ET7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.MoMuscleFitnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoMuscleFitnessTracker.app/MoMuscleFitnessTracker";
+			};
+			name = Debug;
+		};
+		775454FD298F631100B0D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AY5G84ET7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.MoMuscleFitnessTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoMuscleFitnessTracker.app/MoMuscleFitnessTracker";
+			};
+			name = Release;
+		};
+		775454FF298F631100B0D13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AY5G84ET7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.MoMuscleFitnessTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoMuscleFitnessTracker;
+			};
+			name = Debug;
+		};
+		77545500298F631100B0D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AY5G84ET7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.modrame.herokuapp.MoMuscleFitnessTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoMuscleFitnessTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775454C6298F630E00B0D13A /* Build configuration list for PBXProject "MoMuscleFitnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775454F6298F631100B0D13A /* Debug */,
+				775454F7298F631100B0D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775454F8298F631100B0D13A /* Build configuration list for PBXNativeTarget "MoMuscleFitnessTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775454F9298F631100B0D13A /* Debug */,
+				775454FA298F631100B0D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775454FB298F631100B0D13A /* Build configuration list for PBXNativeTarget "MoMuscleFitnessTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775454FC298F631100B0D13A /* Debug */,
+				775454FD298F631100B0D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775454FE298F631100B0D13A /* Build configuration list for PBXNativeTarget "MoMuscleFitnessTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775454FF298F631100B0D13A /* Debug */,
+				77545500298F631100B0D13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		775454D7298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				775454D8298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodel */,
+			);
+			currentVersion = 775454D8298F630E00B0D13A /* MoMuscleFitnessTracker.xcdatamodel */;
+			path = MoMuscleFitnessTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 775454C3298F630E00B0D13A /* Project object */;
+}
