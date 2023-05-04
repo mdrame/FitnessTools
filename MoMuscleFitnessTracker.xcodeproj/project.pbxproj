@@ -15,6 +15,7 @@
 		770FCEB129A886AF004BE99E /* waterintake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEB029A886AF004BE99E /* waterintake.jpg */; };
 		770FCEB329A88C8A004BE99E /* StayHydratedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FCEB229A88C8A004BE99E /* StayHydratedViewController.swift */; };
 		770FCEB529A89163004BE99E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 770FCEB429A89163004BE99E /* 2.png */; };
+		772856E729D00E2C0014B4D9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 772856E629D00E2C0014B4D9 /* 1.png */; };
 		775454CF298F630E00B0D13A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454CE298F630E00B0D13A /* AppDelegate.swift */; };
 		775454D1298F630E00B0D13A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454D0298F630E00B0D13A /* SceneDelegate.swift */; };
 		775454D3298F630E00B0D13A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454D2298F630E00B0D13A /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		775454F5298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775454F4298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift */; };
 		77545502298F63A000B0D13A /* Ampersand Profile Picture (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 77545501298F63A000B0D13A /* Ampersand Profile Picture (1).png */; };
 		77A4FD3F29B3051D00F2075D /* TestViewControlllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A4FD3E29B3051D00F2075D /* TestViewControlllerViewController.swift */; };
+		77B0ECA729C2C76D00EAA33D /* Copy of Ampersand Profile Picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0ECA629C2C76D00EAA33D /* Copy of Ampersand Profile Picture.png */; };
 		77BEABBC299206270009C87F /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BEABBB299206270009C87F /* Calender.swift */; };
 		77C04BBC29B04B570062A650 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C04BBB29B04B570062A650 /* SettingsViewController.swift */; };
 		77CBEA2929A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 77CBEA2829A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png */; };
@@ -58,6 +60,7 @@
 		770FCEB029A886AF004BE99E /* waterintake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterintake.jpg; sourceTree = "<group>"; };
 		770FCEB229A88C8A004BE99E /* StayHydratedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayHydratedViewController.swift; sourceTree = "<group>"; };
 		770FCEB429A89163004BE99E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		772856E629D00E2C0014B4D9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		775454CB298F630E00B0D13A /* MoMuscleFitnessTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoMuscleFitnessTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		775454CE298F630E00B0D13A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		775454D0298F630E00B0D13A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +77,7 @@
 		775454F4298F631100B0D13A /* MoMuscleFitnessTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoMuscleFitnessTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		77545501298F63A000B0D13A /* Ampersand Profile Picture (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ampersand Profile Picture (1).png"; sourceTree = "<group>"; };
 		77A4FD3E29B3051D00F2075D /* TestViewControlllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewControlllerViewController.swift; sourceTree = "<group>"; };
+		77B0ECA629C2C76D00EAA33D /* Copy of Ampersand Profile Picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Ampersand Profile Picture.png"; sourceTree = "<group>"; };
 		77BEABBB299206270009C87F /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
 		77C04BBB29B04B570062A650 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		77CBEA2829A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2023-02-02 at 11.26.46 AM.png"; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 				770BAAD229B2CEAD0052811F /* Extension */,
 				775454D4298F630E00B0D13A /* Main.storyboard */,
 				775454DA298F631100B0D13A /* Assets.xcassets */,
+				77B0ECA629C2C76D00EAA33D /* Copy of Ampersand Profile Picture.png */,
 				770FCEB029A886AF004BE99E /* waterintake.jpg */,
 				770FCEB429A89163004BE99E /* 2.png */,
 				770FCEAC29A87FD5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png */,
@@ -152,6 +157,7 @@
 				770FCEAA29A86D2C004BE99E /* icons8-galons-of-water-96.png */,
 				770FCEA629A86C5B004BE99E /* icons8-tear-off-calendar-48.png */,
 				77545501298F63A000B0D13A /* Ampersand Profile Picture (1).png */,
+				772856E629D00E2C0014B4D9 /* 1.png */,
 				77CBEA2829A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png */,
 				775454DC298F631100B0D13A /* LaunchScreen.storyboard */,
 				775454DF298F631100B0D13A /* Info.plist */,
@@ -285,6 +291,8 @@
 				770FCEAB29A86D2C004BE99E /* icons8-galons-of-water-96.png in Resources */,
 				770FCEAF29A883A5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D copy.png in Resources */,
 				770FCEAD29A87FD5004BE99E /* F090FFB7-E5E8-4C83-ADDC-C8AD2EF5E51D.png in Resources */,
+				77B0ECA729C2C76D00EAA33D /* Copy of Ampersand Profile Picture.png in Resources */,
+				772856E729D00E2C0014B4D9 /* 1.png in Resources */,
 				775454DE298F631100B0D13A /* LaunchScreen.storyboard in Resources */,
 				77CBEA2929A5DB3C00C13B1C /* Screen Shot 2023-02-02 at 11.26.46 AM.png in Resources */,
 				770FCEB129A886AF004BE99E /* waterintake.jpg in Resources */,
